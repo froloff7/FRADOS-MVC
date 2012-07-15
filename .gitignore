@@ -1,2 +1,6 @@
-/static/
-/aplication/config/
+.gitignore
+static/*
+cache/*
+temp/*
+application/config/*
+!application/config/*.demo
