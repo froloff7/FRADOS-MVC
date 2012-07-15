@@ -8,9 +8,9 @@
  *************************************************/
 Abstract Class Controller{
 
-    protected $post     = null;
-    protected $session  = null;
-    protected $cookie   = null;
+    protected $post     = false;
+    protected $session  = false;
+    protected $cookie   = false;
     
     public function __construct(){
         if(sizeof($_POST)>0){$this->post = $_POST;}
