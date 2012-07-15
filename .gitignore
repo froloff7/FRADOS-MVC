@@ -1,5 +1,4 @@
-static/*
-cache/*
-temp/*
-application/config/*
-!application/config/*.demo
+static/
+cache/
+temp/
+application/config/
