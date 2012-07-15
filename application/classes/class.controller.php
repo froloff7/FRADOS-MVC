@@ -4,7 +4,6 @@
  * autor: Frolov Aleksandr
  * mail: <infectiveip@gmail.com>
  * www:  <frados.org>
- * 
  *************************************************/
 Abstract Class Controller{
 
