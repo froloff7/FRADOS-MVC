@@ -2,4 +2,4 @@ static/
 cache/
 temp/
 application/config/
-/nbproject/private/
+/nbproject
