@@ -20,7 +20,7 @@ class Model_user extends Model{
         
         return 'Guest';        
         
-        $this->user = $this->db->DbFirstKey("SELECT name FROM user WHERE skey=?","s",$cookie['name']);
+        $this->user = $this->db->DbKey("SELECT name FROM user WHERE skey=?","s",$cookie['name']);
     }
    
 }
